@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "[![Actions Status](https://github.com/0ser0/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/0ser0/frontend-project-44/actions)",
   "homepage": "https://github.com/0ser0/frontend-project-44#readme",
@@ -16,7 +16,9 @@
   "main": "index.js",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js",
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
