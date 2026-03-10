@@ -11,4 +11,6 @@
 
 [![Demo brain-gcd](https://asciinema.org/a/DIXF1T5wFfWryfP8.svg)](https://asciinema.org/a/DIXF1T5wFfWryfP8)
 
-[![Demo brain-gcd](https://asciinema.org/a/glaIVcKekbQ38boC.svg)](https://asciinema.org/a/glaIVcKekbQ38boC)
+[![Demo brain-progression](https://asciinema.org/a/glaIVcKekbQ38boC.svg)](https://asciinema.org/a/glaIVcKekbQ38boC)
+
+[![Demo brain-prime](https://asciinema.org/a/Oze5Tk6SfnVnx6zk.svg)](https://asciinema.org/a/Oze5Tk6SfnVnx6zk)
