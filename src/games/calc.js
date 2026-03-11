@@ -2,7 +2,7 @@ import run from '../index.js'
 
 // Генератор случайного оператора
 const getRandomOperator = () => {
-const operator = ['+', '-', '*', '/']
+const operator = ['+', '-', '*']
 const randomIndex = Math.floor(Math.random() * operator.length)
 return operator[randomIndex]
 }
@@ -25,9 +25,6 @@ const calc = (num1, num2, oper) => {
     else if (oper === '*') {
     return  num1 * num2
     }
-    else if (oper === '/') {
-    return  num1 / num2
-    }
     else {
     return  null
     }
@@ -39,15 +36,15 @@ const runRound = () => {
     const oper = getRandomOperator()
 
     const question = `${num1} ${oper} ${num2}`
-    const correctAnswer = String(calc (num1, num2, oper))
+    const correctAnswer = String(calc(num1, num2, oper))
 
     return {question, correctAnswer}
     }
 
 // Запуск
 
-const runСalc = () => {
+const runCalc = () => {
     run (description, runRound)
 }
 
-export default runСalc
+export default runCalc
