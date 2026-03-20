@@ -30,7 +30,8 @@ const runRound = () => {
   for (let i = 0; i < progression.length; i += 1) {
     if (i === hiddenIndex) {
       newArr.push('..')
-    } else {
+    }
+    else {
       newArr.push(progression[i])
     }
   }

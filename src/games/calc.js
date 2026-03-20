@@ -16,11 +16,14 @@ const description = 'What is the result of the expression?'
 const calc = (num1, num2, oper) => {
   if (oper === '+') {
     return num1 + num2
-  } else if (oper === '-') {
+  }
+  else if (oper === '-') {
     return num1 - num2
-  } else if (oper === '*') {
+  }
+  else if (oper === '*') {
     return num1 * num2
-  } else {
+  }
+  else {
     return null
   }
 }

@@ -4,7 +4,7 @@ import run from '../index.js'
 const getRandomNumber = () => Math.floor(Math.random() * 1000) + 1
 
 // Проверка чётности
-const isEvenNumber = (num) => num % 2 === 0
+const isEvenNumber = num => num % 2 === 0
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".'
 
